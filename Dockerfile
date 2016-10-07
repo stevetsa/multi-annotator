@@ -3,7 +3,7 @@ FROM ubuntu:14.04
 
 MAINTAINER Durga Addepalli <durgaddepalli@gmail.com>
 
-#LABEL Description="This image is used for running TeamCGC Annotation Pipeline"
+LABEL Description="This image is used for running TeamCGC Annotation Pipeline"
 
 WORKDIR /opt
 
